@@ -1,0 +1,29 @@
+
+
+*{
+  box-sizing: border-box;
+}
+
+.wrapper{
+  background-image: url(assets/dino-reichmuth-85708.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: dimgrey;
+  text-align: center;
+  
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: sans-serif serif;
+}
+
+small{
+  font-family: inherit;
+  color: #000000;
+}
+
+
+
+
+
