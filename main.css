@@ -5,22 +5,34 @@
 }
 
 .wrapper{
-  background-image: url(assets/dino-reichmuth-85708.jpg);
+  background: url(assets/dino-reichmuth-85708.jpg) no-repeat center;
   background-size: cover;
   height: 100vh;
-  color: dimgrey;
+  width: 100%;
+  color: rgba(12,12,12,.6);
   text-align: center;
-  
+  display: table;
 }
 
-h1 {
+.byline{
+  display: table-cell;
+  line-height: 4.2rem;
+  font-size: 2rem;
+ }
+
+.quote {
   text-transform: uppercase;
-  font-family: sans-serif serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
+  text-align: center;
+  width: 85vw;
+  margin: auto;
+  margin-top: 15vh;
 }
 
-small{
-  font-family: inherit;
-  color: #000000;
+.author{
+  font-family: 'Lobster', cursive;
+  color: rgba(12,12,12,.75);
+  font-size: 1.2rem;
 }
 
 
